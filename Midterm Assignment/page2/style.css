@@ -1,0 +1,242 @@
+.body{
+    background-color: #faf2e2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+/* Header Starts */
+
+.header {
+    background-color: #4c6444;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between; 
+  }
+
+
+  .icons1 {
+    padding: 16px 18px;
+    font-size: 16px;
+    color: #caba9c;
+  }
+
+  .icons1 i  {
+    margin: 0px 12px;
+  }
+
+/* Links_interactions */
+
+  .header a {
+    float: left;
+    color: #caba9c;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+/* Links on hover */
+
+  .header a:hover {
+    background-color: #2c3b28;
+    color: #caba9c;
+  }
+  
+/* Current link */
+    .header a.active {
+      background-color: #102820;
+      color: #caba9c;
+    }
+/* Header Ends */
+
+
+.hero {
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: bottom;
+  height: 175px;
+  width: 100%;
+  margin: 0px 8px;
+  display:flex;
+  flex-direction:row;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+
+.herotext {
+  color: #4d2d18;
+  font-size: 40px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.list {
+  background-color: #4c6444;
+  color: #caba9c;
+  padding: 24px;
+  margin: 8px auto;
+  width: 800px;
+  font-size: 16px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: auto;   
+}
+
+.recipe {
+  padding: 24px;
+  max-width: 800px;
+  font-size: 16px;
+  margin: 8px auto;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+
+}
+
+.image {
+  width: 400px;
+  height: auto;
+  background-color: rgb(135, 208, 222);
+  background-image: url(images/recipe\ 1.jpeg);
+  background-size: cover;
+  background-position: center;
+  image-rendering: auto;
+
+}
+
+
+
+.title {
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  max-width: 800px;
+  font-size: 16px;
+  text-align: left;
+
+}
+
+
+/* Cards */
+
+.gallery-container {
+  padding: 24px;
+  text-align: center;
+  flex-wrap: nowrap; 
+}
+
+.card {
+  width: 200px;
+  height: 310px;
+  background-color: #4c6444;
+  margin: 8px 18px;
+  display: inline-block;
+  flex-direction: column;
+  padding: 24px;
+  border-radius: 4px;
+  image-rendering: auto;
+  transition: all 0.3s ease-in-out 0s;
+  color: #caba9c;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card:hover {
+width: 200px;
+height: 311px;
+background-color: #2c3b28;
+color: #caba9c;
+
+}
+
+
+.cardimage-1 {
+width: 200px;
+height: 150px;
+background-color: rgb(135, 208, 222);
+background-image: url(images/Box_Image_1.jpeg);
+background-size: cover;
+background-position: center;
+display: inline-block;
+image-rendering: auto;
+border-radius: 2px;
+}
+
+.cardimage-2 {
+width: 200px;
+height: 150px;
+background-color: rgb(135, 208, 222);
+background-image: url(images/pozole.webp);
+background-size: cover;
+background-position: center;
+display: inline-block;
+image-rendering: auto;
+border-radius: 2px;
+}
+
+.cardimage-3 {
+width: 200px;
+height: 150px;
+background-color: rgb(135, 208, 222);
+background-image: url(images/Card_3.jpeg);
+background-size: cover;
+background-position: center;
+display: inline-block;
+image-rendering: auto;
+border-radius: 2px;
+}
+
+
+
+/* Cards End */
+
+
+
+.form {
+    background-color:#4c6444;
+    padding: 16px 8px;
+    color: #caba9c;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+      footer {
+      background-color:#102820;
+      z-index: 1;
+      color: #caba9c;
+      padding: 18px 8px;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .icons2 {
+    padding: 16px 18px;
+    font-size: 16px;
+    color: #caba9c;
+  }
+  
+  .icons2 i  {
+    margin: 0px 12px;
+  }
+  
